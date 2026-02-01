@@ -1,0 +1,12 @@
+﻿model,best_cv_MAE,best_params
+NN,4.023862280079735,"{'m__hidden_layer_sizes': (64,), 'm__alpha': 0.00045042834710787066, 'm__learning_rate_init': 0.002055026140105727, 'm__activation': 'tanh'}"
+XGBoost,4.253988415531427,"{'m__n_estimators': 1824, 'm__max_depth': 10, 'm__learning_rate': 0.015736459704343873, 'm__subsample': 0.6199130830553325, 'm__colsample_bytree': 0.9783879094280011, 'm__reg_lambda': 9.942375122860234, 'm__min_child_weight': 0.07031625664856082}"
+LightGBM,4.345818280548689,"{'m__n_estimators': 3174, 'm__learning_rate': 0.0037923839839430346, 'm__num_leaves': 174, 'm__max_depth': 12, 'm__min_child_samples': 5, 'm__subsample': 0.8547197212445077, 'm__colsample_bytree': 0.6092382591688951, 'm__reg_lambda': 0.0035104464200579593}"
+GPR,4.541794433881588,"{'m__kernel': 1**2 * RBF(length_scale=1) + RBF(length_scale=1), 'm__alpha': 0.8822701300250254}"
+RF,4.76505019411469,"{'m__n_estimators': 686, 'm__max_depth': 20, 'm__min_samples_split': 4, 'm__min_samples_leaf': 1, 'm__max_features': 1.0}"
+SVR,4.9605921394593215,"{'m__C': 124.42258139151262, 'm__epsilon': 0.12541892439139551, 'm__gamma': 'scale', 'm__kernel': 'rbf'}"
+k-NN,4.99385565018715,"{'m__n_neighbors': 4, 'm__weights': 'distance', 'm__p': 1}"
+DT,5.359770035211239,"{'m__max_depth': 5, 'm__min_samples_split': 17, 'm__min_samples_leaf': 8, 'm__max_features': None}"
+MLR (Lasso),5.904653740979273,{'m__alpha': 0.05286921770345249}
+MLR,5.951947056578522,{}
+PLS,5.975547955837566,{'m__n_components': 5}
